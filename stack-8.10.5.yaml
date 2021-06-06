@@ -89,8 +89,8 @@ flags:
   hls-hlint-plugin:
     hlint33: false
 
-# Because of implicit-hie-cradle-0.3.0.2 and stylish-haskell-0.12.2.0
-allow-newer: true
+# # Because of implicit-hie-cradle-0.3.0.2 and stylish-haskell-0.12.2.0
+# allow-newer: true
 
 nix:
   packages: [ icu libcxx zlib ]
